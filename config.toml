@@ -1,0 +1,32 @@
+baseURL = "https://flippinbits.id/"
+languageCode = "en-us"
+title = "flippinbits"
+theme = "etch"
+
+[params]
+description = "Uh-oh!"
+copyright = "2024 | Made with passion... and caffeine too"
+dark = "auto"
+highlight = true
+
+[menu]
+[[menu.main]]
+identifier = "posts"
+name = "posts"
+title = "posts"
+url = "/"
+weight = 10
+
+[[menu.main]]
+identifier = "about"
+name = "about"
+title = "about"
+url = "/about/"
+weight = 20
+
+[permalinks]
+posts = "/:title/"
+
+[markup.goldmark.renderer]
+# Allows HTML in Markdown
+unsafe = true

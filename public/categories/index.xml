@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on flippinbits</title>
+    <link>https://blog.flippinbits.id/categories/</link>
+    <description>Recent content in Categories on flippinbits</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://blog.flippinbits.id/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    <item>
+      <title>Finally, a Homelab !</title>
+      <link>https://blog.flippinbits.id/finally-a-homelab/</link>
+      <pubDate>Fri, 02 Feb 2024 13:45:15 +0700</pubDate>
+      
+      <guid>https://blog.flippinbits.id/finally-a-homelab/</guid>
+      <description>&lt;h1 id=&#34;background-story&#34;&gt;Background Story&lt;/h1&gt;
+&lt;p&gt;When i was in high school, i&amp;rsquo;ve always dreamt having a cool gaming PC with all those fancy
+RGB stuff, liquid cooling and shiny GPU. Fast forward to being a CS students, especially
+since familiarizing myself with Linux, all those gaming things loses their cool factor.
+Scrolling through &lt;em&gt;r/homelab&lt;/em&gt; makes me think, &amp;lsquo;&lt;em&gt;damn, all those loud rack of computers seems
+hella fun !&lt;/em&gt;&amp;rsquo;.&lt;/p&gt;
+&lt;p&gt;Another fast forward to 2024, and i finally got my whole minimal homelab setup. For around $350
+i&amp;rsquo;ve got myself these components:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;- 8U Server rack ($120)
+- TP-Link SG-1016PE Switch ($48)
+- Nano Pi R2S ($48)
+- Google WiFi AC-1304 ($20)
+- ThinkCentre M93p - i7, 16GB RAM, 512GB SATA SSD ($110)
+- Some additional RJ45 cables
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;network&#34;&gt;Network&lt;/h2&gt;
+&lt;p&gt;My plan for the switch is to separate existing home network using VLANs. The Nano Pi R2S will
+serve as the main router, replacing my Redmi AC2100. My usecase for the router will be VLANs,
+DoH, adblocking and VPN connection using Tailscale. The Redmi router will just serve as a dumb
+AP for home use, and the Google WiFi will be used for homelab AP.&lt;/p&gt;
+&lt;h2 id=&#34;server&#34;&gt;Server&lt;/h2&gt;
+&lt;p&gt;I found a good deal for a secondhand M93p at my local online store. 4 cores, 8 thread Haswell
+architecture should be more than capable for just running some web applications. The problem
+would be limited storage space, since i can only use a single SATA slot. But that shouldn&amp;rsquo;t be
+a problem as i aim to add another machine in the near future.&lt;/p&gt;
+&lt;p&gt;I use Proxmox to manage my VMs and containers. This is a first for me, and haven&amp;rsquo;t setting up
+more complex configuration like using Ceph or high-availibility feature, i found it quite
+powerful to manage multiple services. I wish i had learn about Proxmox earlier. Next step would
+be to make some templates and Ansible configuration to ease service setup.&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;So far, i&amp;rsquo;ve managed a file server, a GitLab instance for personal projects along with it&amp;rsquo;s CI
+runner, and a development VM. Just by setting up all this, i already learn a lot about networking
+and maintaining infrastructure. I will update my homelab setup in future posts.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>A First Start</title>
+      <link>https://blog.flippinbits.id/a-first-start/</link>
+      <pubDate>Wed, 10 Jan 2024 18:20:56 +0700</pubDate>
+      
+      <guid>https://blog.flippinbits.id/a-first-start/</guid>
+      <description>&lt;p&gt;After sometime, finally got myself a personal blog to write to ! Yeah this is
+just some introductory post though, so see you next time~&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    
+  </channel>
+</rss>
